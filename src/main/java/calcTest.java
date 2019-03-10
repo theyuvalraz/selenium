@@ -70,7 +70,7 @@ public class calcTest {
     calcPageObject.getMult().click();
     calcPageObject.get2().click();
     String rslt = calcPageObject.getResults("16");
-    assertNotEquals("(10-2)*2!=20","20");
+    assertNotEquals("(10-2)*2!=20",rslt);
 
   }
 
